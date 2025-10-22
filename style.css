@@ -39,7 +39,7 @@ main{
 }
 
 section{
-  background-image: linear-gradient(30deg, #685797 0%, #725694 50%, #704986 100%);
+  background-image: linear-gradient(30deg, #350400  0%, #400400 50%, #580400 100%);
   border-radius: 0.625rem;
   padding-top: 4px;
 }
@@ -86,7 +86,7 @@ form {
 
 input, select {
   all: unset;
-  border: 2px solid #685797;
+  border: 2px solid #580400;
   border-radius: 0.5rem;
   padding: 0.675rem;
   font-size: 0.875rem;
@@ -101,18 +101,17 @@ button {
   width: 100%;
   padding: 0.675rem;
   border: 0;
-  background-image: linear-gradient(90deg, #685797 0%, #725694 50%, #704986 100%);
+  background-image: linear-gradient(90deg, #350400  0%, #400400 50%, #580400 100%);
   border-radius: 0.5rem;
   color: white;
   font-weight: 500;
-
   transition: all 0.3s;
 } 
 
 button:hover {
   cursor: pointer;
   transform: translateY(-2px);
-  box-shadow: 0 5px 1rem rgba(171, 68, 240, 0.596);
+  box-shadow: 0 5px 1rem rgba(4, 1, 1, 0.758);
 }
 
 button:disabled {
@@ -127,7 +126,7 @@ button:disabled {
   background: rgba(0,0,0,0.4);
   border-radius: 0.5rem;
   padding: 1.25rem;
-  border-left: 4px solid #685797;
+  border-left: 4px solid #3a0000;
 }
 
 #aiResponse ul {
