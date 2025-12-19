@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const apiKeyInput = document.getElementById('apiKey');
 const gameSelect = document.getElementById('gameSelect');
 const questionInput = document.getElementById('questionInput');
@@ -10,7 +12,6 @@ const markDownToHTML = (text) => {
     return converter.makeHtml(text);
 }
 
-// apiKey = AIzaSyANWb428ShKhycCBxVaTORM4mI-ZuemkNk
 const perguntarAI = async (question, game, apiKey) => {
     const model = "gemini-2.0-flash"
     const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`
